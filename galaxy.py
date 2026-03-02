@@ -113,6 +113,7 @@ class MainWidget(RelativeLayout):
 		self.tile_coordinates = []
 		self.pre_fill_tiles_coordinates()
 		self.generate_tiles_coordinate()
+		self.SPEED = .8
 
 
 		self.state_game_over = False
